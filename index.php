@@ -63,6 +63,8 @@ if(mysqli_num_rows($resultado) > 0) {
         <td>-</td>
         <td>-</td>
     </tr>
+
+    
 <?php   
     }//end else
 ?>
@@ -72,8 +74,11 @@ if(mysqli_num_rows($resultado) > 0) {
         <br>
         <a href="adicionar.php" class="btn">Adicionar Cliente</a>
     </div>
+    
 </div>
 
 <?php 
+
 include_once 'includes/footer.php';
 ?>
+
